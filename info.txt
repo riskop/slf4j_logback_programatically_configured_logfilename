@@ -1,0 +1,4 @@
+This project shows how to set the log file name programatically.
+
+I worked on a tool-like project where a separate log file must have
+been created for each run with unique name.
