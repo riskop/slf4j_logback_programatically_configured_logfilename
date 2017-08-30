@@ -8,7 +8,7 @@ public class Start {
     public static void main(String[] args) {
         
         //Set this before the logger start.
-        System.setProperty("log.name", "logfile" + System.currentTimeMillis());
+        System.setProperty("log.name", "logfile_" + System.currentTimeMillis());
         
         new Worker().doSomething();
         
